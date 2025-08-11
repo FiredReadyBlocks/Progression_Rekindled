@@ -3,15 +3,15 @@
 	"id": "progression-rekindled",
 	"version": "${version}",
 	"name": "Progression Rekindled",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod aiming to smoothen out Minecraft's progression, while adding value to previously useless materials. Actually useful Copper equipment, more incentives to upgrade to Netherite, Rosegold, reworked Shields, and more!",
 	"authors": [
-		"Me!"
+		"FiredReadyBlocks"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://www.youtube.com/@firedreadyblocks7427",
+		"sources": "https://github.com/FiredReadyBlocks/Progression_Rekindled"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/progression-rekindled/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"fireds.progressionrekindled.ProgressionRekindledDataGenerator"
+		],
+		"client": [
+			"fireds.progressionrekindled.ProgressionRekindledClient"
 		]
 	},
 	"mixins": [
